@@ -1,0 +1,27 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.tmp
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Sloth-Compile local runtime data
+sloth_logs.db
+sloth_logs.db-wal
+sloth_logs.db-shm
+sloth_dropzone/*
+sloth_processed/*
+
+# Keep the folders in git using .gitkeep if needed
+!sloth_dropzone/.gitkeep
+!sloth_processed/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
